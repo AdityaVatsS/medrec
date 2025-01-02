@@ -234,4 +234,15 @@ class MyApp extends StatelessWidget {
  -   I n f u r a   P r o j e c t   I D :   c 5 e a e 6 7 1 2 2 c 9 4 9 3 c b a c 3 c 4 a 1 7 6 3 c c 2 0 f 
  -   N e t w o r k :   S e p o l i a 
  -   S m a r t   C o n t r a c t :   P e n d i n g   D e p l o y m e n t  
+ #   M e d R e c   -   M e d i c a l   R e c o r d s   o n   B l o c k c h a i n 
+ 
+ U p d a t e d :   2 0 2 5 - 0 1 - 0 2   2 2 : 5 0 : 2 9 
+ A u t h o r :   A d i t y a V a t s S 
+ 
+ A   d e c e n t r a l i z e d   m e d i c a l   r e c o r d s   m a n a g e m e n t   s y s t e m   b u i l t   w i t h   F l u t t e r   a n d   E t h e r e u m . 
+ 
+ # #   C o n f i g u r a t i o n 
+ -   I n f u r a   P r o j e c t   I D :   c 5 e a e 6 7 1 2 2 c 9 4 9 3 c b a c 3 c 4 a 1 7 6 3 c c 2 0 f 
+ -   N e t w o r k :   S e p o l i a 
+ -   S m a r t   C o n t r a c t :   P e n d i n g   D e p l o y m e n t  
  
