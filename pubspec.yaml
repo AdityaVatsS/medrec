@@ -1,0 +1,117 @@
+name: medrec
+description: A Medical Records Management System on Blockchain
+# Updated by AdityaVatsS at 2025-01-02 22:41:06
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Blockchain and Web3
+  web3dart: ^2.7.1
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+
+  # State Management
+  provider: ^6.0.5
+
+  # Storage
+  shared_preferences: ^2.2.1
+
+  # UI Components
+  cupertino_icons: ^1.0.5
+  font_awesome_flutter: ^10.5.0
+  fluttertoast: ^8.2.2
+  google_fonts: ^5.1.0
+  animated_text_kit: ^4.2.2
+
+  # Utilities
+  intl: ^0.18.1
+  crypto: ^3.0.3
+  url_launcher: ^6.1.12
+  path_provider: ^2.1.0
+  flutter_secure_storage: ^8.0.0
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  qr_code_scanner: ^1.0.1
+
+  # PDF Generation
+  pdf: ^3.10.4
+  printing: ^5.11.0
+
+  # Charts and Graphs
+  fl_chart: ^0.63.0
+
+  # Animations
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Development Tools
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  mockito: ^5.4.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+
+# Flutter Configuration
+flutter:
+  uses-material-design: true
+
+  assets:
+    - src/abis/MedRec.json
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 300
+
+# App Icon Configuration
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
+# Splash Screen Configuration
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+  branding: assets/images/branding.png
+  color_dark: "#121212"
+  image_dark: assets/images/splash_dark.png
+  branding_dark: assets/images/branding_dark.png
+
+  android_12:
+    image: assets/images/splash_android12.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/splash_android12_dark.png
+    icon_background_color_dark: "#121212"
+
+# Metadata
+publish_to: none
+repository: https://github.com/AdityaVatsS/medrec
